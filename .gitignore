@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+# Other things for me
+*.old
+
+*.code-workspace
+.DS_Store
