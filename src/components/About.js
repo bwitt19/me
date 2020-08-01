@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import ReactMarkdown from 'react-markdown';
-import Container from 'react-bootstrap/Container';
 
-import LineBreak from './LineBreak';
+import Contents from './Contents';
 
 const markdown = `
 ## about me
@@ -15,12 +14,9 @@ I might talk about how I'm just some lil new grad that wants to actually have a 
 class About extends Component {
     render () {
         return (
-            <div id='about'>
-                <LineBreak />
-                <Container className="my-5">
-                    <ReactMarkdown source={markdown} />
-                </Container>
-            </div>
+            <Contents id="about">
+                <ReactMarkdown source={markdown} />
+            </Contents>
         );
     }
 }
