@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from "react-bootstrap"
 
-const resume_site = "https://raw.githubusercontent.com/bwitt19/me/32c12b603236132ec8de95da96069fe03b72aa3b/src/components/data/Blair%20Witt%20Resume%20Jul-20.pdf";
+import resume_site from './data/resume_site';
 
 function Navbar() {
     return(
