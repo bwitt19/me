@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import Contents from './Contents';
 
 const markdown = `
-## about me
+# about me
 ##### (behind the bingus)
 
 I'll fill this in later! But it definitely exists, I'm sure.  
