@@ -8,10 +8,10 @@ function LineBreak() {
 function Contents(props) {
     return (
         <div id={props.id} className="contents">
-            <LineBreak />
-            <Container className="pt-3 pb-5">
+            <Container className="py-4">
                 {props.children}
             </Container>
+            <LineBreak />
         </div>
     );
 }
