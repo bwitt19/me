@@ -20,6 +20,10 @@ body {
   color: black;
 }
 
+.main {
+  background-color: white;
+}
+
 a {
   color: #4e7bdb;
 }
