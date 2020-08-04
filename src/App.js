@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
 import Experience from './components/Experience';
@@ -11,10 +12,14 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
-      <About />
-      
+      <Navbar />
+      <div className="main">
+        <About />
+        <Experience />
+        <Projects />
+      </div>
       <Footer />
     </div>
   );

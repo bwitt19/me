@@ -1,26 +1,25 @@
 import React, {Component} from 'react';
 import ReactMarkdown from 'react-markdown';
-import Container from 'react-bootstrap/Container';
 
-import LineBreak from './LineBreak';
+import Contents from './Contents';
 
 const markdown = `
-## about me
-##### (behind the bingus)
+# about me:
 
-I'll fill this in later! But it definitely exists, I'm sure.  
-I might talk about how I'm just some lil new grad that wants to actually have a job and such but yes.
+Hey! I'm a new Computer Science graduate from UMBC, experienced with and passionate about machine 
+learning and data science, and how they can be applied to better the world around us -- from 
+computer vision applications, to assistive robotics, smarter smart-home tech, and anything 
+else under the sun.
+
+Currently: *looking for work!*
 `;
 
 class About extends Component {
     render () {
         return (
-            <div id='about'>
-                <LineBreak />
-                <Container className="my-5">
-                    <ReactMarkdown source={markdown} />
-                </Container>
-            </div>
+            <Contents id="about">
+                <ReactMarkdown source={markdown} />
+            </Contents>
         );
     }
 }
