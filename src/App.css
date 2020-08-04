@@ -20,10 +20,6 @@ body {
   color: black;
 }
 
-.main {
-  padding-top: 1em;
-}
-
 a {
   color: #4e7bdb;
 }
@@ -41,7 +37,7 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 85vh;
 }
 
 .jumbotron a {
@@ -52,8 +48,6 @@ hr {
   text-align: center;
   background-color: rgb(54, 48, 80);
   color: white;
-  position: fixed;
-  top: 0;
 }
 
 #navbar a {
@@ -65,8 +59,12 @@ hr {
   color: rgb(36, 36, 36);
 }
 
+.linebreak {
+  background-color: rgb(230, 230, 230);
+}
+
 #about hr {
-  border-top: 0px solid rgba(230, 230, 230, 0)
+  border-top: 1px solid rgba(230, 230, 230, 0)
 }
 
 .footer {

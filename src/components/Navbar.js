@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap"
 
 function Navbar() {
     return(
-        <Container className="py-3" id="navbar" fluid>
+        <Container className="my-4" id="navbar" fluid>
             <nav>
                 <a href='#about'>About</a> &bull;&nbsp;
                 <a href='#resume'>Resume</a> &bull;&nbsp;
