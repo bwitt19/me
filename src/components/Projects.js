@@ -28,12 +28,23 @@ code is just for the interface.
 
 `;
 
+const pubs_markdown = `
+# publications:
+
+[[1]](https://ieeexplore.ieee.org/abstract/document/8730692): K. Rook, B. Witt, R. Bailey, J. Geigel, P. Hu and A. Kothari, "A Study of User Intent in Immersive Smart Spaces," 2019 IEEE International Conference on Pervasive Computing and Communications Workshops (PerCom Workshops), Kyoto, Japan, 2019, pp. 227-232, doi: 10.1109/PERCOMW.2019.8730692.
+`
+
 class Projects extends Component {
     render () {
         return (
-            <Contents id="projects">
-                <ReactMarkdown source={markdown} />
-            </Contents>
+            <div id="projects">
+                <Contents>
+                    <ReactMarkdown source={pubs_markdown} />
+                </Contents>
+                <Contents>
+                    <ReactMarkdown source={markdown} />
+                </Contents>
+            </div>
         );
     }
 }
